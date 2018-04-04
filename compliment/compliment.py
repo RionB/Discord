@@ -29,4 +29,4 @@ class Compliment:
 
 
 def setup(bot):
-bot.add_cog(Compliment(bot))
+    bot.add_cog(Compliment(bot))

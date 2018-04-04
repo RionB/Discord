@@ -1,0 +1,9 @@
+{ 
+"AUTHOR" : "Rion Broome", 
+"SHORT" : "compliment people",
+"DESCRIPTION" : "Compliment your friends once a day",
+"DISABLED" : false, 
+"NAME" : "Compliment", 
+"TAGS" : ["Compliments", "fun"], 
+"INSTALL_MSG" : "Usage: `!compliment <user>`"
+}

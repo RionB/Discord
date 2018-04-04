@@ -20,7 +20,7 @@ class Compliment:
         if user != None:
             if user.id == self.bot.user.id:
                 user = ctx.message.author
-                msg = "Oh, no need for that! You go on ahead. I will stay behind, to gaze at the sun... The sun is a wondrous body. Like a magnificent father! If only I could be so grossly incandescent!"
+                msg = " Don't praise me - Praise the Sun!!!"
                 await self.bot.say(user.mention + msg)
             else:
                 await self.bot.say(user.mention + msg + randchoice(self.compliments))
